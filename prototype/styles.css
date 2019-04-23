@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  height: 100vh;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 15px 0;
+  font-weight: 400;
+}
+
+p, ul {
+  margin: 0;
+}
+
+a {
+  color: #cc5fcf;
+  text-decoration: none;
+  transition: ease-in-out .2s;
+}
+
+  a:hover {
+    color: #000;
+  }
+
+/* index.html */
+.site_title {
+  width: 45%;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+
+nav {
+  position: absolute;
+  top: 55%;
+  left: 60%;
+}
+
+#geo_container {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+/* chain_abstractions.html */
+#fade_in {
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+
+#poem {
+  position: absolute;
+  top: 25%;
+  left: 55%;
+}
+
+  #poem p {
+    font-size: 22px;
+    opacity: 0;
+    transition: opacity 0.8s;
+  }
+
+/* synesthesia_sentences.html */
+#images {
+  position: absolute;
+  right: 0;
+}
+
+img {
+  width: 400px;
+  display: block;
+}
